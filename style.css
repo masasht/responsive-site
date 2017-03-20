@@ -54,7 +54,7 @@ footer a {
 /* 以下PC用CSS*/
 @media (min-width: 769px) {
   header {
-    background-image: url("images/top.jpg");
+    background-image: url("/images/top.jpg");
     height: 500px;
     width: 100%;
     background-size: cover;
