@@ -1,0 +1,93 @@
+header {
+  background-image: url("images/top.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#content {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: #9a9a9a;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.17em;
+  margin: 30px ;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #ddd;
+  color: #9a9a9a;
+  font-size: 1.17em;
+}
+
+.box {
+  margin: 15px;
+  color: #fff;
+  border-color: #555;
+}
+
+
+.box div {
+  background-color: #9a9a9a;
+  padding: 40px;
+  margin: 0;
+  color: #fff;
+  font-size: 1.17em;
+}
+
+footer {
+  padding: 15px 0;
+  background-color: #ddd;
+  text-align: center;
+  color: #9a9a9a;
+  font-weight: bold;
+}
+
+footer a {
+  display: block;
+  background-color: #9a9a9a;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 20px;
+  border-radius: 4px;
+  
+}
+
+/* 以下PC用CSS*/
+@media (min-width: 769px) {
+
+  header {
+    background-image: url("images/top.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .container::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .box {
+    margin: 0 1%;
+    color: #fff;
+    border-color: #555;
+    width: 31.3%;
+    float: left;
+  }
+  
+  footer a {
+    margin: 10px auto;
+    width: 31.3%;
+  }
+
+}
